@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/dave-pemberton-ibm
   gitUsername: dave-pemberton-ibm
   gitBranch: main
+services:
+- serviceName: project.txc2025.integrations:addNumbers
+  packages:
+  - name: Txc2025Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
